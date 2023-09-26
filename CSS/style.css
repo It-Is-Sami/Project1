@@ -1,0 +1,640 @@
+body {
+    height: 2000px;
+}
+
+/* Section 1\ Background */
+
+.div-fixed {
+    overflow: auto;
+    height: 850px;
+    width: 100%;
+    opacity: 1;
+    background-image: url(../Images/WhatsApp\ Image\ 2023-07-29\ at\ 14.22.25.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Section 1\ Title */
+
+.services,
+.about,
+.portfolio,
+.team,
+.contact, 
+.contact a {
+    display: inline;
+    margin-left: 30px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.services:hover,
+.about:hover,
+.portfolio:hover,
+.team:hover,
+.contact:hover, 
+.contact a:hover {
+    color: rgb(255, 128, 0);
+}
+
+.contact{
+    margin-left: -8px;
+}
+
+.page-title,
+.unordered {
+    float: left;
+}
+
+.page-title {
+    margin-top: 15px;
+    margin-left: 160px;
+    margin-right: 200px;
+    font-size: 35px;
+    color: rgb(255, 128, 0);
+    font-family: 'Dancing Script', cursive;
+}
+
+/* Section 1\ Main */
+
+.main-section {
+    color: white;
+    margin: auto;
+    text-align: center;
+    width: 750px;
+    margin-top: 225px;
+    /* background-color: aqua; */
+}
+
+.header {
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Handjet', cursive;
+}
+
+.subtitle {
+    font-family: 'Edu SA Beginner', cursive;
+    font-size: 40px;
+}
+
+.learn-more {
+    font-weight: 800;
+    border-radius: 10px;
+    background-color: rgb(255, 128, 0);
+    color: white;
+    width: 125px;
+    height: 50px;
+    font-size: 15px;
+    border: none;
+}
+
+.learn-more:hover {
+    background-color: rgb(133, 66, 0);
+}
+
+/* Section 2 */
+
+.section-2 {
+    width: 100%;
+    height: 765px;
+    margin-top: 70px;
+    /* background-color: aqua; */
+}
+
+/* Section 2\ Title */
+
+.section-title {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Handjet', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.services-description {
+    text-align: center;
+    color: grey;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Handjet', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Section 2\ Services */
+
+.sec2-serv1 {
+    width: 300px;
+    height: 300px;
+    /* background-color: brown; */
+    text-align: center;
+}
+
+.sec2-serv2 {
+    width: 300px;
+    height: 300px;
+    /* background-color: brown; */
+    text-align: center;
+}
+
+.sec2-serv3 {
+    width: 300px;
+    height: 300px;
+    /* background-color: brown; */
+    text-align: center;
+}
+
+.section2-icon2,
+.section2-icon3 {
+    font-size: 50px;
+    color: white;
+    background-color: rgb(255, 208, 0);
+    width: 100px;
+    height: 79px;
+    border-radius: 50%;
+    padding-top: 21px;
+    text-align: center;
+    /* margin-left: 100px; */
+}
+
+.section2-icon1 {
+    font-size: 50px;
+    color: white;
+    background-color: rgb(255, 208, 0);
+    width: 100px;
+    height: 75px;
+    border-radius: 50%;
+    padding-top: 25px;
+    text-align: center;
+    /* margin-left: 100px; */
+}
+
+.sec2-flexbox-div {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.sec2-serv1-description {
+    color: grey;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Handjet', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sec2-serv2-description {
+    color: grey;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Handjet', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sec2-serv3-description {
+    color: grey;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Handjet', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sec2-serv1-title {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Handjet', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sec2-serv2-title {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Handjet', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sec2-serv3-title {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Handjet', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Section 3 */
+
+.sec3-parent {
+    width: 100%;
+    height: 1000px;
+    margin-top: -100px;
+    background-color: rgb(244, 244, 244);
+    padding-top: 100px;
+}
+
+.sec3-semiParent1 {
+    width: 100%;
+    height: 400px;
+    /* background-color: coral; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.semiParent1-img1,
+.semiParent1-img2,
+.semiParent1-img3 {
+    width: 280px;
+    height: 350px;
+    background-color: white;
+}
+
+.sec3-semiParent2 {
+    width: 100%;
+    height: 400px;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.semiParent2-img1,
+.semiParent2-img2,
+.semiParent2-img3 {
+    width: 280px;
+    height: 350px;
+    background-color: white;
+}
+
+.sec3-title {
+    text-align: center;
+    font-size: 50px;
+    margin-top: -30px;
+}
+
+.sec3-title-description {
+    text-align: center;
+    color: rgb(117, 116, 116);
+    font-size: 20px;
+    margin-top: -10px;
+    margin-bottom: 60px;
+}
+
+.sec3-img1,
+.sec3-img2,
+.sec3-img3,
+.sec3-img4,
+.sec3-img5,
+.sec3-img6 {
+    width: 280px;
+    height: 260px;
+}
+
+.img1-description1,
+.img2-description1,
+.img3-description1,
+.img4-description1,
+.img5-description1,
+.img6-description1 {
+    text-align: center;
+}
+
+.img1-description2,
+.img2-description2,
+.img3-description2,
+.img4-description2,
+.img5-description2,
+.img6-description2 {
+    text-align: center;
+    margin-top: -20px;
+}
+
+/* Section 4 */
+
+.sec4-parent {
+    width: 100%;
+    height: 2125px;
+    /* background-color: aqua; */
+    position: relative;
+}
+
+.line-about {
+    width: 4px;
+    height: 1800px;
+    background-color: rgb(181, 181, 181);
+    margin-left: 625px;
+    position: absolute;
+    z-index: -1;
+}
+
+.text1-sec4 {
+    display: flex;
+    justify-content: space;
+    margin-left: 200px;
+}
+
+.text-about {
+    width: 400px;
+    margin-left: -100px;
+    margin-right: 35px;
+    text-align: right;
+}
+
+.text1-image img {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    border: 5px solid rgb(181, 181, 181);
+}
+
+.sec4-parent {
+    text-align: center;
+}
+
+.title-sec4 {
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+.sec4-title-description {
+    font-size: 25px;
+    color: rgb(82, 82, 82);
+    margin-top: -30px;
+    margin-bottom: 70px;
+}
+
+.text-about p {
+    color: rgb(82, 82, 82);
+    font-size: 17.5px;
+}
+
+.text-about h3 {
+    font-size: 27px;
+}
+
+.text2-image img {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    border: 5px solid rgb(181, 181, 181);
+    margin-left: 340px;
+}
+
+.text2-sec4 {
+    display: flex;
+    justify-content: space;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+
+.text-about-2 h3 {
+    font-size: 27px;
+}
+
+.text-about-2 p {
+    color: rgb(82, 82, 82);
+    font-size: 17.5px;
+}
+
+.text-about-2 {
+    width: 400px;
+    margin-left: 40px;
+    margin-right: 35px;
+    text-align: left;
+}
+
+.text3-sec4 {
+    display: flex;
+    justify-content: space;
+    margin-left: 200px;
+}
+
+.text-about-3 {
+    width: 400px;
+    margin-left: -100px;
+    margin-right: 35px;
+    text-align: right;
+    margin-top: 200px;
+}
+
+.text-about-3 h3 {
+    font-size: 27px;
+}
+
+.text-about-3 p {
+    color: rgb(82, 82, 82);
+    font-size: 17.5px;
+}
+
+.text3-image img {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    border: 5px solid rgb(181, 181, 181);
+    margin-top: 225px;
+}
+
+.text-about-4 p {
+    color: rgb(82, 82, 82);
+    font-size: 17.5px;
+}
+
+.text-about-4 h3 {
+    font-size: 27px;
+}
+
+.text-about-4 {
+    width: 400px;
+    margin-left: 545px;
+    margin-right: 35px;
+    text-align: left;
+    margin-top: 200px;
+}
+
+.text4-sec4 {
+    display: flex;
+    justify-content: space;
+    margin-left: 200px;
+}
+
+.text4-image img {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    border: 5px solid rgb(181, 181, 181);
+    margin-top: 200px;
+    margin-left: -1100px;
+}
+
+.text5-end {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    border: 5px solid rgb(181, 181, 181);
+    margin-top: 200px;
+    background-color: rgb(255, 208, 0);
+    text-align: center;
+    margin-left: 540px;
+}
+
+.text5-end h2 {
+    color: white;
+    font-size: 35px;
+}
+
+/* Section 5 */
+
+.section5 {
+    /* background-color: salmon; */
+    width: 100%;
+    height: 739px;
+    background-color: rgb(244, 244, 244);
+}
+
+.subtitle-sec5 {
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 40px;
+    color: grey;
+}
+
+.title-sec5 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.part1 {
+    width: 250px;
+    height: 350px;
+    /* background-color: aqua; */
+}
+
+.part1-img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(200, 200, 200);
+    margin-left: 40px;
+}
+
+.part1-text {
+    width: 250px;
+    height: 170px;
+    /* background-color: rgb(18, 80, 15); */
+}
+
+.p1-t-1,
+.p1-t-2 {
+    text-align: center;
+}
+
+.part2 {
+    width: 250px;
+    height: 350px;
+    /* background-color: aqua; */
+}
+
+.part2-img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(200, 200, 200);
+    margin-left: 40px;
+}
+
+.part2-text {
+    width: 250px;
+    height: 170px;
+    /* background-color: rgb(18, 80, 15); */
+}
+
+.p2-t-1,
+.p2-t-2 {
+    text-align: center;
+}
+
+.part3 {
+    width: 250px;
+    height: 350px;
+    /* background-color: aqua; */
+}
+
+.part3-img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(200, 200, 200);
+    margin-left: 40px;
+}
+
+.part3-text {
+    width: 250px;
+    height: 170px;
+    /* background-color: rgb(18, 80, 15); */
+}
+
+.p3-t-1,
+.p3-t-2 {
+    text-align: center;
+}
+
+.main-sec5{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.part1, .part2, .part3{
+    margin-top: 30px;
+}
+
+.twitter, .facebook, .linkedin-in{
+    margin-left: 10px;
+    font-size: 25px;
+    display: inline;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+}
+
+.twitter{
+    margin-left: 45px;
+    padding: 10px;
+}
+
+.facebook{
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.linkedin-in{
+    padding: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.p1-t-2, .p2-t-2, .p3-t-2{
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.description-sec5{
+    color: grey;
+    text-align: center;
+    width: 75%;
+    margin-left: 150px;
+    margin-bottom: 70px;
+}
+
+.footer{
+    text-align: center;
+    width: 100%;
+    height: 65px;
+    background-color: black;
+    color: white;
+    padding-top: 15px;
+}
